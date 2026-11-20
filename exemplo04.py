@@ -24,6 +24,10 @@ print(frutas)
 print(len(frutas))  
 
 # converter lista para sets 
-lista = [5, 7, 4, 1, 2, 8, 13, 6]
-conjunto_set = set(lista)
-print(conjunto_set)
+#lista = [5, 7, 4, 1, 2, 8, 13, 6]
+#conjunto_set = set(lista)
+#print(conjunto_set)
+
+numeros = [5, 7, 4, 1, 4, 8, 13, 6, 5 ,5, 13, 9, 453, 342,]
+conjunto = set(numeros)
+print(conjunto)

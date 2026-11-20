@@ -29,5 +29,7 @@ print(len(frutas))
 #print(conjunto_set)
 
 numeros = [5, 7, 4, 1, 4, 8, 13, 6, 5 ,5, 13, 9, 453, 342,]
-conjunto = set(numeros)
+conjunto = set(numeros)  # converte lista para o conjunto set
+numeros = list(conjunto) # converte o conjunto set para a lista    
+print(len(conjunto))
 print(conjunto)

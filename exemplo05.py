@@ -11,3 +11,4 @@ print(frutas)
 
 numeros = (10, 20, 50, 30, 40, 60, 70)
 print(numeros.count(30))
+print(frutas.index('laranja'))
